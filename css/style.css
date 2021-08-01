@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+  
+}
+
+span {
+    font-weight: 700;
+    color:  #db469d;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+h1.cabecalho__titulo{
+    font-size: 5rem;
+}
+
+h2.sobre-mim__titulo{
+    margin-top: 25px;
+    color: #a56080;
+    margin-bottom:20px ;
+    text-align: center;
+}
+
+.botao > a,
+.midias-sociais__container-link {
+    text-decoration: none;
+    color: #cf59c0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.botao {
+    margin-top: 20px;
+    background-color: white;
+    border: #7E459B solid 1px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+}
+
+.cabecalho {
+    text-align: center;
+    background-image: url('../imagem/banner-bg.png');
+    background-size:cover;
+    background-position:center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+    width:100%;
+    margin: auto;
+}
+
+.cabecalho__titulo {
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.cabecalho__texto {
+    font-size: 1.6rem;
+}
+
+.destaque {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.sobre-mim,
+.midias-sociais {
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre-mim__titulo {
+    font-size: 3rem;
+    color: #C4C4C4;
+    margin-bottom: 55px;
+}
+
+
+.sobre-mim__descricao, 
+.sobre-mim__habilidades {
+    width: 40%;
+    line-height: 1.5;
+    text-align: justify ;
+    margin-left:5% ;
+}
+
+ul{
+    list-style-type: square;
+  }
+
+.midias-sociais__container {
+    text-align: center;
+    width: 160px;
+    height:150px;
+    background-color: #cf96b3;
+    padding: 20px;
+    margin-left:95px ;
+}
+
+.midias-sociais__container-img {
+    margin-bottom: 20px;
+    width: 60px;
+    transition: all 1s linear
+}
+
+.midias-sociais__container-img:hover {
+    width: 100px;
+}
+
+.midias-sociais__container-link,
+.midias-sociais__container-paragrafo {
+    color: white;
+    font-size:80px;
+    margin-bottom:20px;
+}
+
+.midias-sociais__container-paragrafo {
+    margin-top: 8px;
+    font-size: 1.2rem;
+}
+
+.rodape__paragrafo {
+    text-align: center;
+    color: #868585;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #ebbfd6;
+    height: 70px;
+  }
+
+  @media only screen and (min-with:350px) and (max-with:500px) {
+
+    section.cabecalho {
+          width:50%;
+      
+      }
+
+      
+  }
